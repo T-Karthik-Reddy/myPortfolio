@@ -1,0 +1,223 @@
+.introImage{
+  background-image: url(./img/bg-masthead.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:90vh;
+
+  width:100%;
+  max-width: 600px;
+}
+
+.introh1{
+      font-size: 100px;
+      white-space: nowrap;
+      color: #0F0F0F;
+}
+
+.introp{
+  font-size: 50px;
+  color: #6F6E6E;
+  white-space: nowrap;
+}
+.pro{
+  text-decoration: underline;
+}
+/* profile */
+.proImage{
+  background-image: url(./img/bg-signup.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+}
+.middlecontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+.profilep1{
+  font-size: 70px;
+  text-align: center !important;
+  color: #0F0F0F;
+}
+.profilep2{
+  font-size: 23px;
+  font-weight: 500;
+  width:85%;
+  text-align: center !important;
+}
+   /* Skills */
+
+.skillp0{
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom:90px !important;
+}
+.skillImage{
+  background-image: url(./img/demo-image-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+}
+.skillcontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+
+.firstskill{
+  display: flex;
+  flex-direction: row;
+  width:60% !important;
+  margin-bottom: 10px;
+}
+.firstskillcontent{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.skillp1{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.secondskill{
+  display: flex;
+  flex-direction: row;
+  width:60% !important;
+}
+
+.secondskillcontent{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.skillp3{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* contact */
+
+.contactImage{
+  background-image: url(./img/demo-image-02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+}
+
+.contactcontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+
+.contactp1{
+    font-size:50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.contactp2{
+     font-size: 35px;
+     font-weight: 650;
+     margin-top: 20px;
+     margin-bottom: 20px;
+}
+.contactp3{
+      margin-top:20px;
+     font-size: 15px;
+     font-weight: 500;
+     text-align: center !important;
+}
+
+/* footer */
+.footerImage{
+  background-color: #0F0F0F;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+}
+.footercontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:20vh;
+}
+
+.text-body-light{
+  color:#6F6E6E !important;
+}
+
+
+
+
+
+
+@media (max-width: 800px) {
+
+  .introImage, 
+  .proImage,
+  .skillImage, 
+  .contactImage {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .introh1 {
+    font-size: 24px;
+    color: #fff; 
+  }
+
+  .profilep1 {
+    font-size: 24px;
+    color: #333;
+  }
+
+  .skillp0 {
+    font-size: 24px;
+    color: #fff;
+  }
+
+  .firstskill, 
+  .secondskill {
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  .contactp2{
+    text-align: center !important;
+  }
+
+  .secondskillcontent{
+    color:#6F6E6E !important;
+  }
+  .skillp0{
+    color: #0F0F0F !important;
+  }
+
+  .introh1{
+    color: #0F0F0F !important;
+  }
+
+  .dev{
+    text-decoration: underline !important;
+  }
+  
+}
